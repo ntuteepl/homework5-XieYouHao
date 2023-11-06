@@ -5,7 +5,7 @@ int main () {
   scanf("%d", &minutes);
   double fee = minutes * 0.9;
   if (minutes >= 1500) {
-    fee *= 79/100;
+    fee *= 0.79;
   } else if (minutes >= 800) {
     fee *= 0.9;
   }
